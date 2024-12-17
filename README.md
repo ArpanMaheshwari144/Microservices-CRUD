@@ -31,8 +31,7 @@ Before you begin, ensure you have the following installed:
 To get started, clone the repository and set up the backend and microservices:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/insurance-system-backend.git
-    cd insurance-system-backend
+    git clone [https://github.com/your-username/insurance-system-backend.git](https://github.com/ArpanMaheshwari144/Microservices-CRUD.git)
     ```
 
 2. Build the project:
@@ -40,11 +39,11 @@ To get started, clone the repository and set up the backend and microservices:
     mvn clean install
     ```
 
-## Running the Insurance System Backend
-To run the **Insurance System Backend**, follow these steps:
+## Running the Customer Microservice
+To run the **Customer Microservice**, follow these steps:
 1. Navigate to the project directory:
     ```bash
-    cd insurance-system-backend
+    cd customer-microservice
     ```
 
 2. Run the application:
@@ -54,11 +53,11 @@ To run the **Insurance System Backend**, follow these steps:
 
 3. Access the API at `http://localhost:8081`.
 
-## Running the Customer Microservice
-To set up and run the **Customer Microservice**, follow these steps:
+## Running the Policy Microservice
+To set up and run the **Policy Microservice**, follow these steps:
 1. Navigate to the project directory:
     ```bash
-    cd customer-microservice
+    cd policy-microservice
     ```
 
 2. Build the project:
@@ -72,18 +71,6 @@ To set up and run the **Customer Microservice**, follow these steps:
     ```
 
 4. Access the API at `http://localhost:8082`.
-
-## Testing
-To run unit and integration tests:
-1. Run the tests for the **Insurance System Backend**:
-    ```bash
-    mvn test
-    ```
-
-2. Run the tests for the **Customer Microservice**:
-    ```bash
-    mvn test
-    ```
 
 ## Configuration
 Configuration files are located in the `src/main/resources` directory. Update the following properties in `application.properties` for both the **Insurance System Backend** and **Customer Microservice**:
