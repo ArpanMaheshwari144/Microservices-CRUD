@@ -51,8 +51,6 @@ To run the **Customer Microservice**, follow these steps:
     mvn spring-boot:run
     ```
 
-3. Access the API at `http://localhost:8081`.
-
 ## Running the Policy Microservice
 To set up and run the **Policy Microservice**, follow these steps:
 1. Navigate to the project directory:
@@ -60,22 +58,15 @@ To set up and run the **Policy Microservice**, follow these steps:
     cd policy-microservice
     ```
 
-2. Build the project:
-    ```bash
-    mvn clean install
-    ```
-
-3. Run the application:
+2. Run the application:
     ```bash
     mvn spring-boot:run
     ```
 
-4. Access the API at `http://localhost:8082`.
-
 ## Configuration
-Configuration files are located in the `src/main/resources` directory. Update the following properties in `application.properties` for both the **Insurance System Backend** and **Customer Microservice**:
+Configuration files are located in the `src/main/resources` directory. Update the following properties in `application.properties` for both the **Microservices-CRUD** and **Customer Microservice**:
 
-- **Database Configuration for Insurance System Backend:**
+- **Database Configuration for Microservices-CRUD:**
   ```properties
   spring.datasource.url=jdbc:mysql://localhost:3306/insurance_db
   spring.datasource.username=root
