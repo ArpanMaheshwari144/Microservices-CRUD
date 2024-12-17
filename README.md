@@ -11,14 +11,8 @@ This microservices setup is built using Spring Boot and follows best practices f
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Running the Application](#running-the-application)
-- [Testing](#testing)
 - [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
 - [Database Schema](#database-schema)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
@@ -31,7 +25,7 @@ Before you begin, ensure you have the following installed:
 To get started, clone the repository and set up the backend and microservices:
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/insurance-system-backend.git](https://github.com/ArpanMaheshwari144/Microservices-CRUD.git)
+    git clone https://github.com/ArpanMaheshwari144/Microservices-CRUD.git
     ```
 
 2. Build the project:
