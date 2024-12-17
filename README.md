@@ -12,7 +12,6 @@ This microservices setup is built using Spring Boot and follows best practices f
 - [Getting Started](#getting-started)
 - [Running the Application](#running-the-application)
 - [Configuration](#configuration)
-- [Database Schema](#database-schema)
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
